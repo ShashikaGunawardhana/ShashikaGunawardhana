@@ -77,7 +77,7 @@ public class Billing {
 			} 
 	 
 			// Prepare the html table to be displayed    
-			output = "<table border=\'1\'><tr><th>Account No</th><th>Customer Name</th><th>Address</th><th>Unit</th><th>Full Amount</th><th>Update</th><th>Remove</th></tr>";
+			output = "<table border=\'1\'><tr><th>Account No</th><th>Customer Name</th><th>Customer No</th><th>Unit</th><th>Full Amount</th><th>Update</th><th>Remove</th></tr>";
 	 
 			String query = "select * from billing";    
 			Statement stmt = (Statement) con.createStatement();
